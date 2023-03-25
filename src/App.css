@@ -27,6 +27,34 @@
 .App-link {
   color: #61dafb;
 }
+.nav-color{
+  background-color: #A74482;
+  color:#282c34;
+ 
+}
+.nav-color1{
+  background-color: #E899DC;
+}
+.nav-color2{
+  background-color: #AAFAC8;
+  color:#282c34;
+}
+.nav-color3{
+  background-color: #66F5A1;
+  color:#282c34;
+}
+.nav-color3:hover{
+  background-color: #054E3C;
+}
+.card{
+  background-color:  #E899DC;;
+}
+.card:hover {
+ background-color: #A74482;
+}
+/* .nav-color1:hover{
+  background-color: #A74482;
+} */
 
 @keyframes App-logo-spin {
   from {

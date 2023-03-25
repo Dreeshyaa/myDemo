@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Nav from './components/Nav';
-import Navbar from './Navbar';
-import Card from './Card';
-import Category from './Category';
-import Carousel from './Carousel';
+
+
 import Home from './admin/Home';
 import Create from './admin/Create';
 import Footer from './components/footer';
@@ -28,7 +26,7 @@ root.render(
   
     <div class="flex flex-col h-screen">
     <Nav/>
-    <Navbar></Navbar>
+
     <div className='flex-grow'>
       {/* <App></App> */}
      {/* <Carousel/> */}
@@ -42,17 +40,7 @@ root.render(
         </>}>
           
           </Route>
-          <Route path="/card" element={<Card/>}>
-            
-          </Route>
-          <Route path="/contact" element={<Contact/>}>
-
-          </Route>
-          <Route path="/category" element={<Category>
-            {/* <ImageSlider slides={SliderData} /> */}
-          </Category>}>
-            
-          </Route>
+       
           <Route path="/home" element={<Home/>}>
             
             </Route>
@@ -63,7 +51,7 @@ root.render(
       {/* <Card></Card>
       <Cardd></Cardd> */}
      
-    <Footer></Footer>
+   
     
    
   </div>
